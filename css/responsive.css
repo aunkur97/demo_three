@@ -1,0 +1,96 @@
+@media (min-width:1201px){
+
+}
+
+@media (max-width:1200px) and (min-width:993px) {
+    
+}
+
+@media (max-width:992px) and (min-width:769px) {
+    
+    footer .footer1 .logo-icons{
+        margin-bottom: 20px !important;
+    }
+    footer .footer2  h3{
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+
+}
+
+
+@media (max-width:768px) and (min-width:576px){
+   
+   /* banner part start */
+    #banner .slider-items .banner-text h2 {
+        font-family: var(--hf);
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    #banner .slider-items .banner-text h1 {
+        font-family: var(--hf);
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--cl1);
+    }
+
+    #banner .bg1 .banner-text::before{
+        display: none;
+    }
+
+    #banner .bg1 .banner-text::after {
+        display: none;
+    }
+    #banner .bg1 .banner-text h2::before{
+        display: none;
+    }
+    #banner .bg1 .banner-text h2::after {
+        display: none;
+    }
+
+    #banner .bg1 .banner-text h1::before{
+        display: none;
+    }
+
+    #banner .bg1 .banner-text h1::after{
+        display: none;
+    }
+
+    /* about part */
+    #about .about-text{
+        padding-top: 30px;
+    } 
+
+    #funfact{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    #routine .nav-tabs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    #routine .tab-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* footer */
+    footer .footer1 .logo-icons{
+        margin-bottom: 20px !important;
+    }
+    footer .footer2  h3{
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+}
